@@ -1,0 +1,204 @@
+.winterCollection {
+    background-color: rgb(200, 235, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+    align-items: center;
+    gap: 100px;
+    margin: 0;
+}
+
+.winterCollectionDiv {
+    margin: 0;
+
+    p {
+        color: rgb(37, 119, 253);
+        font-style: oblique;
+        font-size: 45px;
+        margin: 0
+    }
+
+    ;
+
+    h1 {
+        margin: 0;
+        text-align: left;
+        font-size: 95px;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    button {
+        margin-top: 50px;
+        font-size: 25px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        background-color: rgb(37, 119, 253);
+        transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+
+    }
+}
+
+.ShopImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.catOne {
+    background-image: url(../../assets/images/cat1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+
+    h1 {
+        margin-left: 300px;
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: 300px;
+        background-color: rgb(255, 206, 37);
+        border-radius: 20px;
+        border: none;
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+
+}
+
+.catTwo {
+    background-image: url(../../assets/images/cat2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 300px;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    p {
+        text-align: center;
+
+        margin-left: 300px;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+}
+
+.catThree {
+    background-image: url(../../assets/images/cat3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+
+    h1 {
+        margin-left: 300px;
+        font-size: 55px;
+        margin-bottom: 0;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: 300px;
+        background-color: rgb(255, 206, 37);
+        border-radius: 20px;
+        border: none;
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+}
+
+.shoppingSection {
+    h1 {
+        padding-top: 100px;
+        font-size: 50px;
+    }
+}
+
+.datas {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.imgProduct {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.yellow {
+    color: orange;
+}
+
+.gray {
+    color: gray;
+}
+
+.latestOffers {
+    background-image: url(../../assets/images/background.png.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+    h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    img {
+        position: absolute;
+        left: 65px;
+    }
+
+    p {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    input {
+        border: none;
+        border-radius: 25px;
+        padding: 20px 60px;
+
+    }
+
+    input::placeholder {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 25px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        background-color: rgb(37, 119, 253);
+        transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+    }
+}
