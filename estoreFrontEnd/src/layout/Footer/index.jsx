@@ -1,9 +1,15 @@
 import React from 'react'
 import './style.css'
 import estoreImg from '../../assets/images/logo2_footer.png'
+import { CiHeart } from "react-icons/ci";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { TbWorld } from "react-icons/tb";
+
 const Footer = () => {
     return (
         <footer>
+            <div className='footer'>
             <div>
                 <img src={estoreImg} alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
@@ -37,6 +43,15 @@ const Footer = () => {
                     <li>Privacy Policy</li>
                     <li>Report a Payment Issue</li>
                 </ul>
+            </div>
+            </div>
+            <div className='footerBtm'>
+            <p className='footerBottom'>Copyright ©2024 All rights reserved | This template is made with <CiHeart className='heart' /> by <span>Colorlib</span></p>
+            <div className="icons">
+            <FaTwitter />
+            <FaFacebookF />
+            <TbWorld />
+            </div>
             </div>
         </footer>
     )
