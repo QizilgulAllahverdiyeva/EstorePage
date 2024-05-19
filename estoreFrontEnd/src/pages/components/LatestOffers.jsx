@@ -4,13 +4,13 @@ import './style.css'
 const LatestOffers = () => {
   return (
     <section className='latestOffers'>
-    <img src={man} alt="" />
+    <img className='man' src={man} alt="" />
     <div>
     <h1>Get Our Latest Offers News </h1>
     <p>Subscribe news latter </p>
     </div>
     <input type="text" placeholder='Your email here' />
-    <button>Shop Now</button>
+    <button className='btn'>Shop Now</button>
     </section>
   )
 }

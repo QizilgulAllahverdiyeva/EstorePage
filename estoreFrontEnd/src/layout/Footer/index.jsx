@@ -11,11 +11,10 @@ const Footer = () => {
         <footer>
             <div className='footer'>
             <div>
-                <img src={estoreImg} alt="" />
+                <img className='storeimg' src={estoreImg} alt="" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</p>
             </div>
             <div>
-                
                 <ul>
                     <p>Quick Links</p>
                     <li>About</li>
@@ -45,12 +44,14 @@ const Footer = () => {
                 </ul>
             </div>
             </div>
-            <div className='footerBtm'>
+            <div className='footerBtm flex justify-content-center mx-auto'>
             <p className='footerBottom'>Copyright ©2024 All rights reserved | This template is made with <CiHeart className='heart' /> by <span>Colorlib</span></p>
             <div className="icons">
+            <div className='flex gap-2'>
             <FaTwitter />
             <FaFacebookF />
             <TbWorld />
+            </div>
             </div>
             </div>
         </footer>

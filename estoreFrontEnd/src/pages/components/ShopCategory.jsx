@@ -12,7 +12,6 @@ const ShopCategory = () => {
           </div>
           <div className='catTwo'>
             <h1>Winter Cloth</h1>
-            <p>New Collection</p>
           </div>
           <div className='catThree'>
             <h1>Man`S Cloth</h1>

@@ -1,11 +1,15 @@
 .winterCollection {
     background-color: rgb(200, 235, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0px 200px;
     align-items: center;
     gap: 100px;
     margin: 0;
+    width: auto;
+    img{
+        width: auto
+    }
 }
 
 .winterCollectionDiv {
@@ -46,6 +50,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 
 }
 
@@ -55,12 +60,12 @@
     background-size: cover;
     background-position: center;
     height: 350px;
-    width: 600px;
+    width: 500px;
     border-radius: 5px;
 
     h1 {
-        margin-left: 300px;
-        font-size: 60px;
+        margin-left: 250px;
+        font-size: 50px;
         margin-bottom: 0;
     }
 
@@ -82,7 +87,7 @@
     background-size: cover;
     background-position: center;
     height: 350px;
-    width: 600px;
+    width: 500px;
     border-radius: 5px;
 
     h1 {
@@ -109,17 +114,16 @@
     background-size: cover;
     background-position: center;
     height: 350px;
-    width: 600px;
+    width: 500px;
     border-radius: 5px;
 
     h1 {
         margin-left: 300px;
-        font-size: 55px;
+        font-size: 50px;
         margin-bottom: 0;
     }
 
     button {
-        margin-top: 20px;
         margin-left: 300px;
         background-color: rgb(255, 206, 37);
         border-radius: 20px;
@@ -132,6 +136,7 @@
 .shoppingSection {
     h1 {
         padding-top: 100px;
+        padding-bottom: 50px;
         font-size: 50px;
     }
 }
@@ -161,6 +166,7 @@
 
 .latestOffers {
     background-image: url(../../assets/images/background.png.webp);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,15 +174,11 @@
 
     h1 {
         font-size: 50px;
-        margin: 0;
-    }
-
-    img {
-        position: absolute;
-        left: 65px;
+        margin-right: 50px;
     }
 
     p {
+       
         margin-top: 15px;
         font-size: 25px;
     }
@@ -185,6 +187,7 @@
         border: none;
         border-radius: 25px;
         padding: 20px 60px;
+        margin-right: 0;
 
     }
 
@@ -193,6 +196,7 @@
     }
 
     button {
+   
         font-size: 25px;
         border-radius: 20px;
         border: none;
@@ -200,5 +204,134 @@
         padding: 10px 15px;
         background-color: rgb(37, 119, 253);
         transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -webkit-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -moz-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -ms-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -o-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+}
+
+
+.latestProduct{
+    h1{
+        font-size: 50px;
+        margin: 50px auto;
+        text-align: center;
     }
+}
+.productBody{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    button{
+        color: white;
+        background-color: rgb(37, 119, 253);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        font-size: 25px;
+}
+}
+
+.btn{
+    font-size: 25px;
+    margin-right: 50px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        background-color: rgb(37, 119, 253);
+        transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -webkit-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -moz-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -ms-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -o-transition: rgb(37, 119, 253) 0.4s rgb(15, 47, 97);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1370px) {
+    .winterCollection{
+
+h1{
+    font-size: 65px;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+
+
+    }
+    .latestOffers{
+        h1{
+            font-size: 25px;
+        }
+    }
+    img{
+        width: 300px;
+    }
+    .btn{
+        font-size: 16px;
+    margin-right: 0;
+    }
+
+}
+
+
+@media (max-width:992px){
+    .winterCollection{
+
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 25px;
+        }
+        img{
+          display: none;
+        }
+        button{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        
+            }
+            .latestOffers{
+                h1{
+                    font-size: 25px;
+                }
+            }
+            img{
+                width: 300px;
+            }
+            .btn{
+                font-size: 16px;
+            margin-right: 0;
+            }
+            .man{
+                display: none;
+            }
+        
 }
